@@ -1,0 +1,41 @@
+{
+  "name": "mock-premier-league",
+  "version": "1.0.0",
+  "description": "Mock premier league backend service",
+  "main": "./server.js",
+  "scripts": {
+    "test": "jest --forceExit",
+    "start": "babel-node ./server.js",
+    "dev": "nodemon ./server.js --exec babel-node -e js"
+  },
+  "author": "Olaosebikan Segun",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.4.1",
+    "mongoose": "^5.8.6",
+    "mongoose-unique-validator": "^2.0.3",
+    "regenerator-runtime": "^0.13.3",
+    "shortid": "^2.2.15",
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/polyfill": "^7.8.3",
+    "@babel/preset-env": "^7.8.3"
+  },
+  "devDependencies": {
+    "babel-jest": "^24.9.0",
+    "install": "^0.13.0",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2",
+    "nodemon": "^2.0.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
