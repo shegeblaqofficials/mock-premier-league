@@ -1,4 +1,4 @@
-export const dbUrl = 'mongodb+srv://shegeblaq:Marshal05@cluster0-mukvv.mongodb.net/test?retryWrites=true&w=majority/MockPremierLeagueDb'
+export const dbUrl = 'mongodb+srv://shegeblaq:Marshal05@cluster0-mukvv.mongodb.net/MockPremierLeagueDb?retryWrites=true&w=majority'
 //export const dbUrl = 'mongodb://localhost/MPLdb'
 export const port = 4000
 
